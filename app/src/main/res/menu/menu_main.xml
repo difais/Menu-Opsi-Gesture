@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gmail.difa12947.belajarmenu.MainActivity">
+    <item
+        android:id="@+id/belanja"
+        android:orderInCategory="40"
+        android:icon="@drawable/ic_shop_black"
+        android:title="Belanja"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/pengguna"
+        android:orderInCategory="30"
+        android:icon="@drawable/ic_user_black"
+        android:title="Pengguna"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="20"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="10"
+        android:title="Share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notifikasi"
+        android:orderInCategory="10"
+        android:title="Notification"
+        app:showAsAction="never" />
+</menu>
+
